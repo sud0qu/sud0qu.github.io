@@ -1,0 +1,16 @@
+.onestar {
+    display: flex;
+  
+   width: 70%;
+
+    background-image: url(/img/conv.png);
+    background-size: cover ;
+  
+    background-repeat: no-repeat;
+    padding: 7rem;
+    overflow:visible;
+
+}
+#page {
+  
+}
