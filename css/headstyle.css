@@ -1,0 +1,60 @@
+header{display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh;
+    
+    background: rgba(0, 0, 0, 1.0);
+    position: fixed;
+    bottom:0;
+    left:0;
+    right: 0;
+
+}
+header nav{
+display: flex;
+height: 10vh;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+
+footer{ width: 100%; }
+
+
+
+
+
+header a{
+    display: inline-flex;
+    color:rgba(192, 192, 192, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+}
+header a:hover{
+    transition: 0.8s;
+    color:rgba(192, 192, 192, 0.8);
+}
+header img {
+    max-width: 6vw;
+    min-width: 3vw;
+    padding: 1.5em;
+    
+
+}
+
+@media (max-width:1050px){
+
+header img{
+     max-width: 15vw;
+  }
+  header a{
+  
+    font-size: 2.8em;
+    
+}
+
+ 
+}
