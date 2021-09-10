@@ -21,7 +21,8 @@ header {
 header ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-around; }
+  justify-content: space-around; 
+align-items: center;}
 
 header ul li {
   text-transform: uppercase;
@@ -29,6 +30,10 @@ header ul li {
   padding: 0.5em;
   cursor: pointer;
   color: rgba(250, 235, 215, 0.7); }
+  header ul li img{
+    display: flex;
+    width: 7vw;
+  }
 
 .content {
   display: flex;
@@ -43,5 +48,12 @@ header ul li {
   height: 30vh;
   margin-top: 3vh;
   cursor: pointer; }
+
+  .social ul{
+    display: flex;
+    list-style-type: none;
+  }
+
+
 
 /*# sourceMappingURL=style.css.map */
